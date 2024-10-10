@@ -5,9 +5,15 @@
     padding: 0;
 
 }
+:root{
+    --cor-do-texto: #dbe4ef;
+    --cor-cartao-frente: #144480;
+    --cor-cartao-verso: #00f4bf;
+}
 body{
     background-color: bisque;
     font-family: 'Bai Janjuree', sans-serif;
+    background-image: url(img/bg-desktop.webp);
 }
 footer{
     background-color: black;
@@ -35,6 +41,7 @@ footer p{
 .cartao-conteudo{
     text-align: center;
     height: 100%;
+    padding: 20px;
 }
 
 .cartao-conteudo h3{
@@ -47,3 +54,9 @@ footer p{
     border-radius: 0.6rem;
     font-size: 1vwx;
 }
+.cart-conteudo-resposta{
+    color: var(--cor-do-texto);
+    font-weight: 500;
+
+}
+
