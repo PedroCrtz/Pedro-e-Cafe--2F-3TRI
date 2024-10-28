@@ -58,10 +58,10 @@ footer p{
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
-    font-size: 1vwx;
+    font-size: 1vw;
     backface-visibility: hidden;
 }
-.cart-conteudo-resposta{
+.cartao-conteudo-resposta{
     color: var(--cor-do-texto);
     font-weight: 500;
 
@@ -69,6 +69,7 @@ footer p{
 .cartao-conteudo-pergunta,
 .cartao-conteudo-resposta{
     backface-visibility: hidden;
+    margin: 1rem;
 
 }
 .cartao-conteudo-resposta{
