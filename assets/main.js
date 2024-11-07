@@ -17,3 +17,6 @@ function criaCartao(tema, pergunta, reposta) {
 }
 criaCartao('Historia', 'Em que ano se iniciou-se guerra do vietnã?', 'em 1955')
 criaCartao('comedia', 'por que a galinha atravesou a rua?','para chegar ao outro lado')
+criaCartao('chocolate','qual é melhor marca de chocolate','chocolate belga')
+criaCartao('volei','melhor oposto do amavolei','pedro ragusa rocha cortez')
+criaCartao('unimed','maior currupta  da unimed','sara')

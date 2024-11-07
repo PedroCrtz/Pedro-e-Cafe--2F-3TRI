@@ -37,6 +37,7 @@ footer p{
     margin: 2rem;
     height: 20rem;
     background-color: #697565;
+    border-radius: 15px;
 }
 .cartao:hover .cartao-conteudo{
     transform: rotateY(180deg);
@@ -67,6 +68,12 @@ footer p{
     font-weight: 500;
 
 }
+.cartao-conteudo-pergunta{
+    padding-top: 55px;
+    font-weight: 500;
+
+}
+
 .cartao-conteudo-pergunta,
 .cartao-conteudo-resposta{
     backface-visibility: hidden;
